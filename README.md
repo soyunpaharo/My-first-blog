@@ -1,11 +1,11 @@
-Blog
-This is a simple blog website built using HTML and CSS. It features a responsive design that can be viewed on different screen sizes.
+*Blog*
+/This is a simple blog website built using HTML and CSS. It features a responsive design that can be viewed on different screen sizes./
 
 Getting Started
 To get started with the project, simply download or clone the repository to your local machine. You can then open the index.html file in your preferred web browser.
 git clone https://github.com/yourusername/blog.git 
 
-Usage
+*Usage*
 The blog website consists of three pages: the homepage, the "About" page, and the "Contact" page. Each page can be accessed using the navigation bar at the top of the website.
 
 The homepage displays two sample blog posts. You can add your own blog posts by editing the HTML code in the index.html file. Each blog post is contained within an <article> tag.

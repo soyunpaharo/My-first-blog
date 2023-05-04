@@ -3,7 +3,7 @@ This is a simple blog website built using HTML and CSS. It features a responsive
 
 Getting Started
 To get started with the project, simply download or clone the repository to your local machine. You can then open the index.html file in your preferred web browser.
-git clone https://github.com/yourusername/blog.git
+git clone https://github.com/yourusername/blog.git 
 
 Usage
 The blog website consists of three pages: the homepage, the "About" page, and the "Contact" page. Each page can be accessed using the navigation bar at the top of the website.

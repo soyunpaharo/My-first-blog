@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi blog</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #FFF5EE;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #9370DB;
+			color: white;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+		}
+		
+		header a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+			margin: 0 5px;
+			padding: 5px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+		}
+		
+		header a:hover {
+			background-color: #8B008B;
+			color: #FFF5EE;
+			cursor: pointer;
+		}
+		
+		main {
+			margin: 20px;
+			padding: 10px;
+			background-color: white;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		
+		article {
+			margin: 10px 0;
+			padding: 10px;
+			border-bottom: 1px solid #ccc;
+		}
+		
+		article:last-of-type {
+			border-bottom: none;
+		}
+		
+		article h2 {
+			margin: 0;
+			font-size: 24px;
+			font-weight: normal;
+		}
+		
+		article p {
+			margin: 10px 0;
+		}
+		
+		article footer {
+			font-style: italic;
+			color: #999;
+		}
+		
+		footer {
+			background-color: #9370DB;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		footer p {
+			margin: 0;
+			padding: 5px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+		}
+		
+		footer p:hover {
+			background-color: #8B008B;
+			color: #FFF5EE;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Mi blog</h1>
+		<nav>
+			<ul>
+				<li><a href="#" target="_blank">Inicio</a></li>
+				<li><a href="#" target="_blank">Acerca de</a></li>
+				<li><a href="#" target="_blank">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<article>
+		
+		<header>
+			<h2>Título del primer post</h2>
+			<p>Fecha de publicación: 30 de abril del 2023</p>
+		</header>
+		<p>Contenido del primer post.</p>
+		<footer>
+			<p>Categoría: Tecnología</p>
+		</footer>
+	</article>
+	
+	<article>
+		<header>
+			<h2>Título del segundo post</h2>
+			<p>Fecha de publicación: 02 de mayo del 2023</p>
+		</header>
+		<p>Contenido del segundo post.</p>
+		<footer>
+			<p>Categoría: Entretenimiento</p>
+		</footer>
+	</article>
+</main>
+
+<footer>
+	<p>Derechos reservados &copy; 2023</p>
+</footer>
+
+<script>
+	// Seleccionar todos los elementos <a> dentro del header
+	const links = document.querySelectorAll("header a");
+
+	// Recorrer cada elemento y agregar eventos
+	links.forEach(link => {
+		link.addEventListener("mouseover", () => {
+			// Al pasar el cursor sobre el enlace, cambia el color de fondo y el color de texto
+			link.style.backgroundColor = "#8B008B";
+			link.style.color = "#FFF5EE";
+		});
+		link.addEventListener("mouseout", () => {
+			// Cuando el cursor sale del enlace, restaura el color original de fondo y el color de texto
+			link.style.backgroundColor = "";
+			link.style.color = "white";
+		});
+	});
+</script>
+</body>
+</html>

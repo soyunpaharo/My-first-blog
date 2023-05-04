@@ -1,5 +1,6 @@
 *Blog*
-/This is a simple blog website built using HTML and CSS. It features a responsive design that can be viewed on different screen sizes./
+
+This is a simple blog website built using HTML and CSS. It features a responsive design that can be viewed on different screen sizes.
 
 Getting Started
 To get started with the project, simply download or clone the repository to your local machine. You can then open the index.html file in your preferred web browser.
@@ -14,8 +15,8 @@ The "About" page provides information about the website and its author. You can 
 
 The "Contact" page provides a simple contact form that users can use to send a message to the website owner. You can configure the form to send messages to your email address by modifying the contact.php file.
 
-License
+*License*
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+*Acknowledgments*
 This project was inspired by FreeCodeCamp tutorials on HTML and CSS.

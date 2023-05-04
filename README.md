@@ -18,7 +18,7 @@ The "Contact" page provides a simple contact form that users can use to send a m
 
 *License*
   
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License 
 
 *Acknowledgments*
   
